@@ -1,6 +1,6 @@
 # Scene Annotation Tool 📝
 
-<img src="annotator.gif" style="width=240px">
+<img src="annotator.gif">
 
 ## Overview
 
@@ -32,8 +32,8 @@ The Scene Annotation Tool is a Unity Editor extension designed to enhance collab
 
 ## Using the Tool 🛠️
 
-1. You can use `AnnotationData.asset` given in package, or create your own. In `Assets`, right click, `Create` > `SceneAnnotations` > `AnnotationData`.
-2. Drag the `Annotations.prefab` to your scene hierarchy, or create a gameobject and add component `AnnotationManager`.
+1. In `Assets`, right click, `Create` > `SceneAnnotations` > `AnnotationData`.
+2. Create a gameobject and add component `AnnotationManager`.
 3. Drag & drop `AnnotationData.asset` to section in `AnnotationManager`.
 4. Open the `SceneAnnotationTool` window from the Unity menu: `Window` > `Scene Annotations`.
 5. Use the tool to add and remove annotations in the Scene view.
